@@ -1,0 +1,32 @@
+body{background-color: pink;
+	background-image: url("Lemon-Meringue-Piefaded.jpg");
+	/*opacity: 0.2;*/
+	/*background-repeat: no-repeat;*/
+}
+
+h1 {
+	text-align: center;
+	font-family: Verdana, Helvetica, "sans-serif";
+	color:yellow;
+	background-color: rgb(255, 150, 50);
+	line-height: 2em;
+	font-size: 40px;
+	
+}
+
+h2 {
+	text-align: center;
+	color: orange;
+	background-color: rgb(200, 100, 60);
+	text-decoration: underline;
+	
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#comments {
+	background-color: rgb(255, 150, 50);
+}

@@ -1,0 +1,95 @@
+<html>
+	<!--
+		This web page demonstrates lists.
+		
+		Lists in HTML come in 3 different forms:
+			-Ordered lists (numbered)
+			-Unordered lists (bullets)
+			-Descriptive lists (terms with definitions)
+			
+		
+		Author: Jeff Andrews
+		Date: 9/8/18
+	-->
+	<head>
+		<title>List Demo</title>
+	</head>
+	
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="headings.html">Heading Demo</a></li>
+				<li><a href="paragraphs.html">Paragraph Demo</a></li>
+				<li><a href="lists.html">List Demo</a></li>
+				<li><a href="textdemo.html">Text Demo</a></li>
+				<li><a href="tabledemo.html">Table Demo</a></li>
+				<li><a href="recipe.html">Recipe</a></li>
+				<li><a href="recipe2.html">Recipe2</a></li>
+				<li><a href="pies.css">Our First CSS File</a></li>
+			</ul>
+		</nav>
+			<h1>Ordered List Example</h1>
+				<!--
+				Use the type modifier to change the numbering type of an ordered list
+				type = "1" (default) - numbers
+				type = "A" - uppercase letters
+				type = "a" = lowercase letters
+				type = "I" = uppercase roman numerals
+				type = "i" = lowercase roman numerals
+				
+				you can also start at a certain value as well -
+				use the start modifier
+				start = 50 - starts the list at 50 -
+				this applies to roman numerals also - letters don't work with "start"
+				
+				<ol type = "character type">
+				</ol>
+				-->
+				<ol type="I" start=4>
+					<li>Numbered List Item</li>
+					<li>Another Numbered List Item</li>
+					<li>And Another Numbered List Item</li>
+				</ol>
+				<!--
+				use the list-style-type modifier to change the symbol 
+				that is displayed for the unordered list.
+				
+					use type="disc" - for the default bullets
+						type="circle" - for circles
+						type="square" - for squares
+						type="none" - to have the list items unmarked
+						
+				-->
+			<h1>Unordered List Example</h1>
+				<ul type="square">
+					<li>Bulleted List Item</li>
+					<li>Another Bulleted List Item</li>
+					<li>And Another Bulleted List Item</li>
+				</ul>
+			<h1>Descriptive List Example</h1>
+				<dl>
+					<dt>Descriptive List Item</dt>
+						<dd>Definition of Descriptive Term</dd>
+					<dt>Another Descriptive List Item</dt>
+						<dd>Another Definition of Descriptive Term</dd>
+					<dt>And Another Descriptive List Item</dt>
+						<dd>Yet Another Definition of Descriptive Term</dd>
+				</dl>
+				<!--
+				Nested list example:
+					We can have a list nested within another list
+					it's all about the nesting!
+				-->
+				
+			<h1>Nested List Example</h1>
+			<ul type="circle">
+				<li>Lists come in a variety of types</li>
+					<ul type="square">
+						<li>Unordered Lists</li>
+						<li>Ordered Lists</li>
+						<li>Descriptive Lists</li>
+					</ul>
+			</ul>
+	</body>
+</html>
