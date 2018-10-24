@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Contact Me</title>
+	
+	
+	</head>
+	<body>
+		<header>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="headings.html">Heading Demo</a></li>
+				<li><a href="paragraphs.html">Paragraph Demo</a></li>
+				<li><a href="lists.html">List Demo</a></li>
+				<li><a href="textdemo.html">Text Demo</a></li>
+				<li><a href="tabledemo.html">Table Demo</a></li>
+				<li><a href="recipe.html">Recipe</a></li>
+				<li><a href="recipe2.html">Recipe2</a></li>
+				<li><a href="pies.css">Our First CSS File</a></li>
+				<li><a href="formdemo.html">Form Demo</a></li>
+				<li><a href="formDemo.css">CSS to style Form Demo</a></li>
+				<li><a href="contact.html">Contact Me!</a></li>
+				<li><a href="contact.css">My Messy CSS for the Contact Page</a></li>
+				<li><a href="javahelloworld.html">Javascript Hello World</a></li>
+			</ul>
+			<h1>Thanks for Visiting My Page</h1>
+			<link rel="stylesheet" type="text/css" href="contact.css"></link>
+		</header>
+		<div>
+				<!-- your basic form will take this shape:
+				<form action="" method="">
+				<label for=""></label>
+				<input type="" label="" name=""> -->
+			
+			<form action="http://randyconnolly.com/tests/process.php" method="get">
+				<fieldset>
+			<legend>Contact Me!</legend>
+				<form>
+					<label for="yourname">Your Name:</label>
+					<input type="text" label="name" placeholder="enter name here"/><br><br>
+					
+					<label for="bestcontact">Best form of Contact:</label><br>
+					<label>E-Mail</label><input type="checkbox" name="email" checked>
+					<label>Cell Phone</label><input type="checkbox" name="cellphone">
+					<label>Other</label><input type="checkbox" name="other"><br><br>
+					
+					<label for="clienttype">Client Type:</label><br>
+					<label>School</label><input type="radio" name="school">
+					<label>College</label><input type="radio" name="college" checked>
+					<label>University</label><input type="radio" name="university"><br><br>
+					
+					<!--
+					alternatively the above radio buttons could be marked up as follows:
+					(notice that you cannot style the below buttons with CSS *i think*)
+					-->
+					
+					<label for="clienttype">Client Type:</label><br>
+					<input type="radio" name="type" value="student"/>school
+					<input type="radio" name="type" value="faculty"/>college
+					<input type="radio" name="type" value="other"/>university<br><br>
+					
+					<input type="submit" text="submit"/>
+					
+					<!--<input type="radio" label="yourname" name="yourname"><br>
+					
+					<label for="yourname">Your Name:</label>
+					<input type="text" label="yourname" name="yourname"><br>
+					-->
+					
+				</form>
+			</fieldset>
+		</div>
+	</body>
+
+
+
+
+
+
+
+
+</html>
