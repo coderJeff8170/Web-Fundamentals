@@ -1,6 +1,6 @@
 var randomNumber = Math.floor(Math.random()*100)+1;
 
-var.guesses = document.querySelector('.guesses');
+var guesses = document.querySelector('.guesses');
 
 var lastResult = document.querySelector('.lastResult');
 
@@ -20,8 +20,9 @@ function checkGuess() {
 	var userGuess = Number(guessField.value);
 	if(guessCount === 1) {
 		guesses.textContent = 'Previous guesses:';
-		guesses.textContent += userGuess + ' ';
+		
 	}
+	guesses.textContent += userGuess + ' ';
 	if(userGuess === randomNumber) {
 		lastResult.textContent = 'Congratulations! You got it right!';
 		lastResult.style.backgroundColor = 'green';
