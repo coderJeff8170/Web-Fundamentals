@@ -7,7 +7,7 @@ body, html {
     color: cadetblue;
 }
 
-.bg{
+.bg {
     background-color: rebeccapurple;
     background-image: url("https://media.giphy.com/media/l41m63eRmHknmSVEs/giphy.gif");
     background-attachment: fixed;
@@ -30,7 +30,7 @@ body, html {
     z-index: 1;
 }
 
-.contentMain{
+.contentMain {
     text-align: center;
 }
 
@@ -67,20 +67,20 @@ body, html {
     overflow: scroll;
 }
 
-.sidebar a{
+.sidebar a {
 color: aliceblue;
 }
 
-a:hover{
+a:hover {
 color: coral;
 }
 
-.weekTitle{
+.weekTitle {
     font-weight: bold;
     font-size: 1.5em;
 }
 
-.subText{
+.subText {
     line-height: 2em;
     font-size: 1em;
 }
