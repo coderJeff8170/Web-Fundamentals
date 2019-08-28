@@ -19,6 +19,7 @@ body, html {
 }
 
 .header {
+    /* font-family: 'Lobster', cursive; */
     position: fixed;
     font-size: 2em;
     font-weight: bold;
@@ -55,6 +56,7 @@ body, html {
     border-radius: 5px;
     background-color: white;
     text-align: center;
+    opacity: 0.8;
 }
 
 .week:hover {
