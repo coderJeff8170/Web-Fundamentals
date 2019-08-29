@@ -3,13 +3,13 @@ html {
 }
 
 body {
-	width: 50%
+	width: 50%;
 	max-width: 800px;
 	min-width: 480px;
 	margin: 0 auto;
 }
 
 .lastResult {
-	color: white
+	color: white;
 	padding: 3px;
 }
